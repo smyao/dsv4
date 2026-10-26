@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-24",
+  "commit": "e099a085329b57cb62b8eee4d381c70c3db2566b",
+  "branch": "releases/v0.31.0rc",
+  "included_papers": 44,
+  "executed_discovery_queries": 47,
+  "resolved_local_document_links": 52,
+  "previous_source_hashes_verified": 19,
+  "additional_source_hashes_verified": 7,
+  "external_download_hashes_verified": 13,
+  "source_budget_calls": 32,
+  "source_budget_scalar_reads": 2,
+  "exact_selection_cases": 8,
+  "amdahl_scenarios": 24,
+  "checks": {
+    "ruff_check": "pass",
+    "ruff_format_check": "pass",
+    "markdownlint_four_documents": "pass",
+    "research_checks": "pass",
+    "local_links": "pass",
+    "source_hashes": "pass",
+    "base_results_hash": "pass"
+  },
+  "production_code_modified": false,
+  "npu_executed": false,
+  "model_accuracy_measured": false,
+  "repository_format_check": "Prior format.sh ci attempt unavailable: pre-commit not installed; focused checks above passed.",
+  "artifacts_sha256": {
+    "docs/source/developer_guide/deepseek_v41_2026_research_zh.md": "47aa2c31f0fbf7e9607f4da136a42cd5b3e6aa64572cfe3c7c707d9c9a64c273",
+    "docs/source/developer_guide/deepseek_v41_long_context_analysis_zh.md": "5c98aeb3cd86cdf18f34c0caf6ef12e267989bf422ffcb00ea2661d6e569a3da",
+    "docs/source/developer_guide/deepseek_v41_long_context_features_zh.md": "d7cb9f1279fc8e326735e28adf5424a80e863836b2e898c203c41a42ce247f14",
+    "benchmarks/deepseek_v41_long_context/README.md": "06e84e4c3be7ef2333837fb94a57b1d598f0fd163810aa84f0666aae03160c48",
+    "benchmarks/deepseek_v41_long_context/research_checks.py": "09b027d0779e756a76f96073f482f1f8f4e8516470834a44786f3591c2309c31",
+    "benchmarks/deepseek_v41_long_context/results/research_checks.json": "84d792c9dfc2a896165bfb1e7523bd06367b25ba4c66ecab5b19710cf6539654",
+    "benchmarks/deepseek_v41_long_context/results/research_sources.json": "d3726ba27a2a7526c7bc24a0635f9470012286d4b7b5dd5dcb714a1006f5b32d"
+  }
+}

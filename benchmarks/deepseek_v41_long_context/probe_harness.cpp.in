@@ -1,0 +1,80 @@
+// SPDX-License-Identifier: Apache-2.0
+// SPDX-FileCopyrightText: Copyright contributors to the vLLM Ascend project
+// Device operations are counters. The two marked bodies come from the checkout.
+#include <algorithm>
+#include <cstdint>
+#include <iostream>
+
+constexpr int LI_QUANT_PRELOAD_TASK_CACHE_SIZE = 2;
+constexpr int PIPE_FIX = 0;
+constexpr int PIPE_MTE3 = 1;
+constexpr int PIPE_MTE2 = 2;
+#define ASCEND_IS_AIC (is_cube)
+#define ASCEND_IS_AIV (!is_cube)
+template<class A, class B> auto Min(A a, B b) { return std::min<int64_t>(a, b); }
+template<class A, class B> auto Max(A a, B b) { return std::max<int64_t>(a, b); }
+inline void CrossCoreWaitFlag(int) {}
+template<int, int> void CrossCoreSetFlag(int) {}
+namespace QLIV2Common {
+struct ConstInfo { static constexpr int FIA_SYNC_MODE2 = 0; };
+struct RunInfo {
+    bool isValid = false;
+    bool isFirstS2InnerLoop = false;
+    bool isLastS2InnerLoop = false;
+};
+}
+struct CubeCounter {
+    uint64_t calls = 0;
+    void ComputeMm1(const QLIV2Common::RunInfo&) { ++calls; }
+};
+struct VectorCounter {
+    uint64_t calls = 0;
+    void ProcessVec0(const QLIV2Common::RunInfo&) {}
+    void ProcessVec1(const QLIV2Common::RunInfo&) { ++calls; }
+};
+class Probe {
+public:
+    struct {
+        uint32_t cmpRatio = 1, s1BaseSize = 4, s2BaseSize = 2048;
+        int syncV0C1 = 0, syncV1C1 = 0, syncC1V1 = 0, syncC1V0 = 0;
+    } constInfo;
+    bool is_cube = true;
+    uint32_t tiles = 0;
+    CubeCounter matmulService;
+    VectorCounter vectorService;
+    void CalcRunInfo(uint32_t, uint32_t tile, QLIV2Common::RunInfo& info) {
+        info.isValid = tile < tiles;
+        info.isFirstS2InnerLoop = tile == 0;
+        info.isLastS2InnerLoop = tile + 1 == tiles;
+    }
+    uint32_t GetS2BaseBlockNumOnMask(uint32_t s1gIdx, uint32_t actS1Size,
+                                   uint32_t actS2SizeOrig, uint32_t& validS2Len)
+    @@MASK_BODY@@
+    void ProcessBaseBlock(uint32_t loop, uint64_t s2LoopIdx,
+                          QLIV2Common::RunInfo runInfo[LI_QUANT_PRELOAD_TASK_CACHE_SIZE])
+    @@BLOCK_BODY@@
+};
+
+int main() {
+    uint32_t q, end, ratio, mode;
+    while (std::cin >> q >> end >> ratio >> mode) {
+        Probe probe;
+        probe.constInfo.cmpRatio = ratio;
+        uint64_t group_pairs = 0;
+        for (uint32_t row = 0; row < q; row += 4) {
+            uint32_t valid = 0;
+            probe.tiles = probe.GetS2BaseBlockNumOnMask(row / 4, q, end, valid);
+            group_pairs += uint64_t(std::min(uint32_t(4), q - row)) * valid;
+            for (bool cube : {true, false}) {
+                probe.is_cube = cube;
+                QLIV2Common::RunInfo runs[LI_QUANT_PRELOAD_TASK_CACHE_SIZE];
+                for (uint32_t tile = 0; tile <= probe.tiles; ++tile) {
+                    probe.ProcessBaseBlock(tile, tile, runs);
+                }
+            }
+        }
+        std::cout << "{\"mode\":" << mode << ",\"cube_calls\":" << probe.matmulService.calls
+                  << ",\"vector_calls\":" << probe.vectorService.calls
+                  << ",\"group_pairs\":" << group_pairs << "}\n";
+    }
+}

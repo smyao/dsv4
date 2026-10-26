@@ -1,0 +1,13 @@
+> /Users/loki.yao/vllm-ascend/benchmarks/deepseek_v41_long_context/simulate.py(683)main()
+-> guards = source_guards()
+(Pdb) (40, (2, 8, 14, 20, 24, 28, 32, 36))
+(Pdb) Breakpoint 1 at /Users/loki.yao/vllm-ascend/vllm_ascend/models/deepseek_v41/indexer.py:278
+(Pdb) (com) (com) (com) (Pdb) (3, 2, (8192, 32, 128), 65536)
+(3, 2, (8192, 32, 128), 65536)
+(3, 2, (8192, 32, 128), 65536)
+(1, 1, (8192, 32, 128), 131072)
+(2, 1, (8192, 32, 128), 131072)
+(2, 1, (8192, 32, 128), 131072)
+(2, 1, (8192, 32, 128), 131072)
+(2, 1, (8192, 32, 128), 131072)
+{"result": "PASS", "probe_cases": 577, "prefill_cases": 40, "numeric_cases": 5, "boundary_cases": 72, "output": "/Users/loki.yao/vllm-ascend/benchmarks/deepseek_v41_long_context/results"}

@@ -1,0 +1,1306 @@
+{
+  "cutoff": "2026-10-24",
+  "base_commit": "e099a085329b57cb62b8eee4d381c70c3db2566b",
+  "query_log": [
+    "DeepSeek V4.1 Flash technical report inference 2026 GitHub",
+    "2026 sparse attention inference DSA lightning indexer optimization paper",
+    "2026 LLM inference systems speculative decoding paper throughput lossless",
+    "2026 KV cache quantization TurboQuant paper",
+    "site:arxiv.org 2026 \"DeepSeek\" \"indexer\" inference",
+    "site:arxiv.org 2026 sparse attention inference \"exact\"",
+    "site:arxiv.org 2026 inference prefill decode disaggregation context parallel throughput",
+    "site:arxiv.org 2026 DeepSeek MoE communication inference throughput",
+    "2026 \"DualPath\" \"LLM\" arxiv github",
+    "2026 \"DSA\" \"indexer\" \"inference\" arxiv sparse",
+    "2026 \"FlashMLA\" paper inference",
+    "2026 \"FlashAttention-4\" paper github",
+    "IndexCache Accelerating Sparse Attention Cross Layer Index Reuse 2026 arxiv github",
+    "HISA hierarchical sparse attention 2026 DSA github arxiv",
+    "2026 inference \"DFlash\" \"speculative\" github paper",
+    "2026 \"DSpark\" \"DeepSeek\" paper github",
+    "2026 long context LLM inference serving throughput scheduling prefill",
+    "2026 \"MoE\" \"inference\" communication overlap expert",
+    "2026 \"KV cache\" \"sparse\" offloading throughput",
+    "2026 \"context parallel\" \"inference\" dynamic",
+    "\"2026\" \"MoE\" \"inference\" \"overlap\" arxiv",
+    "\"2026\" \"context parallelism\" inference arxiv",
+    "\"HiSparse\" \"2608.07009\"",
+    "\"2026\" \"KV cache\" \"lossless\" \"compression\"",
+    "\"2026\" \"MegaMoE\" deepseek",
+    "TurboQuant Online Vector Quantization Near optimal Distortion Rate arxiv Google 2026",
+    "2026 October \"sparse attention\" indexer inference arxiv",
+    "2026 \"Ascend\" \"inference\" \"MoE\" paper github",
+    "2026 \"FlashMask-3\" arxiv",
+    "site:github.com \"IndexCache\" \"index_cache\"",
+    "site:github.com \"HISA\" \"Hierarchical\" indexer",
+    "site:github.com \"PIVOT\" \"DSA\" indexer",
+    "site:github.com \"HiSparse\" \"HiSparseCoordinator\"",
+    "site:github.com \"IndexCache\" \"THUDM\"",
+    "\"2026\" \"Ascend\" \"FlashComm\" paper",
+    "\"2026\" \"LongSpec\" github",
+    "\"2026\" \"FAFO\" \"Fumble\" arxiv",
+    "site:arxiv.org 2026 \"MoE\" \"Mega\" inference",
+    "site:arxiv.org 2026 \"prefill\" \"Ascend\"",
+    "site:arxiv.org 2026 \"context\" \"CP\" \"inference\" January February March",
+    "site:arxiv.org 2026 \"sparse attention\" \"indexer\" January February",
+    "YOCO You Only Cache Once decoder decoder arxiv 2405.05254",
+    "Mooncake KVCache centric Disaggregated Architecture LLM Serving FAST 2025 github",
+    "Native Sparse Attention Hardware Aligned Natively Trainable 2502.11089 github",
+    "Quest query aware sparsity MInference official github paper",
+    "SparDA sparse attention prefetch 2026 Fu",
+    "2026 sparse attention DeepSeek v4 inference exact token indexing throughput SparDA"
+  ],
+  "query_note": "Executed discovery queries; direct opens, finds and clicks are not queries. No claim of exhaustive coverage of all 2026 papers.",
+  "reference_inventory_note": "Primary-domain URLs discovered or opened in retained web results. Inclusion here does not assert full-text reading or applicability; report table records per-paper reading depth and decision.",
+  "references": [
+    {
+      "title": "GitHub - deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models · GitHub",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DeepInfer/doc/inference_deployment_qa.md at main · deepseek-ai/DeepInfer · GitHub",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "README.md · deepseek-ai/DeepSeek-V4.1-Flash at main",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/README.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
+      "url": "https://arxiv.org/abs/2608.01662",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference",
+      "url": "https://arxiv.org/abs/2608.15383",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "MiniMax Sparse Attention",
+      "url": "https://arxiv.org/abs/2606.13392",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention",
+      "url": "https://arxiv.org/abs/2609.08450",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "S$^3$-Attention:Attention-Aligned Endogenous Retrieval for Memory-Bounded Long-Context Inference",
+      "url": "https://arxiv.org/abs/2601.17702",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "P/D-Serve: Serving Disaggregated Large Language Model at Scale",
+      "url": "https://arxiv.org/pdf/2408.08147",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Preble: Efficient Distributed Prompt Scheduling for LLM Serving",
+      "url": "https://arxiv.org/pdf/2407.00023",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Iterative Hard Thresholding for Compressed Sensi",
+      "url": "https://arxiv.org/pdf/0805.0510",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "MISA: Mixture of Indexer Sparse Attention for Long-Context LLM Inference",
+      "url": "https://arxiv.org/abs/2605.07363",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference",
+      "url": "https://arxiv.org/abs/2602.21548",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling",
+      "url": "https://arxiv.org/abs/2603.05451",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "PIVOT: Efficient Query-Group Indexing for Token-Level Sparse Attention",
+      "url": "https://arxiv.org/abs/2607.24593",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Low Precision Flash Attention 4: End-to-End Block-Scaled Attention for Blackwell - PyTorch",
+      "url": "https://pytorch.org/blog/low-precision-flash-attention-4-end-to-end-block-scaled-attention-for-blackwell/",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "flash-attention-5060/ref-docs/flash-attention-4/FA4.md at master · xwxthu/flash-attention-5060 · GitHub",
+      "url": "https://github.com/xwxthu/flash-attention-5060/blob/master/ref-docs/flash-attention-4/FA4.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "FlexAttention + FlashAttention-4: Fast and Flexible - PyTorch",
+      "url": "https://pytorch.org/blog/flexattention-flashattention-4-fast-and-flexible/",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - sgl-project/sgl-flash-attn: Fast and memory-efficient exact attention · GitHub",
+      "url": "https://github.com/sgl-project/sgl-flash-attn",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "medmekk/flash-mla · Hugging Face",
+      "url": "https://huggingface.co/medmekk/flash-mla",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Paper page - DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference",
+      "url": "https://huggingface.co/papers/2602.21548",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "NSMLA: Natively Trainable Sparse Multi-Head Latent Attention",
+      "url": "https://openreview.net/pdf/72880f88aa934ab29407620344b11d7e3c598f3e.pdf",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "<visual_element id=\"e1\">",
+      "url": "https://openreview.net/pdf?id=r9xDZJgIKk",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Under review as a conference paper at ICLR 2026",
+      "url": "https://openreview.net/pdf/de5316a9a401ecbfc742641aa0e866aea9c74441.pdf",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Sample-Guided Exact Top-𝐾 Selection for Long-Context Sparse Attention",
+      "url": "https://arxiv.org/html/2609.08450v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DeepSeek_V41_Tech_Report.pdf · deepseek-ai/DeepSeek-V4.1-Flash at main",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
+      "url": "https://arxiv.org/html/2608.01662v2",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse",
+      "url": "https://arxiv.org/abs/2603.12201",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention",
+      "url": "https://arxiv.org/abs/2603.28458",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "You Only Index Once: Cross-Layer Sparse Attention with Shared Routing",
+      "url": "https://arxiv.org/abs/2606.06467",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "LatentIndex: Cross-Layer Sharing with Layer-Specific Selection for Sparse Attention",
+      "url": "https://arxiv.org/abs/2610.04635",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "url": "https://proceedings.mlr.press/v306/chen26bv.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "dspark/docs/PAPER.md at main · CostaJr007/dspark · GitHub",
+      "url": "https://github.com/CostaJr007/dspark/blob/main/docs/PAPER.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management | Stanford MAST Lab",
+      "url": "https://mast.stanford.edu/pubs/hisparse_scaling_sparse_attention_decoding_with_hierarchical_kv_cache_management/",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - z-lab/dflash: DFlash: Block Diffusion for Flash Speculative Decoding · GitHub",
+      "url": "https://github.com/z-lab/dflash",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - bstnxbt/dflash-mlx: Lossless DFlash speculative decoding for MLX on Apple Silicon · GitHub",
+      "url": "https://github.com/bstnxbt/dflash-mlx",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - tonyd2wild/DeepSeek-v4-Flash-Vision-Exp-DSpark-1M-NVFP4-KV-2x-DGX-Spark: DeepSeek V4 Flash DSpark 1M NVFP4 KV recipe for 2x DGX Spark · GitHub",
+      "url": "https://github.com/tonyd2wild/DeepSeek-v4-Flash-Vision-Exp-DSpark-1M-NVFP4-KV-2x-DGX-Spark",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Exploring Speculative Decoding in vLLM on AMD GPUs | vLLM Blog",
+      "url": "https://vllm-project.github.io/2026/08/23/speculative-decoding-amd-gpus.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DeepSeek-v4-Flash-DSpark-2x-DGX-Spark/README.md at main · MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark · GitHub",
+      "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark/blob/main/README.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Paper-Notes-en/docs/ICML2026/image_generation/dflash_block_diffusion_for_flash_speculative_decoding.md at main · zhaoyang97/Paper-Notes-en · GitHub",
+      "url": "https://github.com/zhaoyang97/Paper-Notes-en/blob/main/docs/ICML2026/image_generation/dflash_block_diffusion_for_flash_speculative_decoding.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Published as a conference paper at ICLR 2026",
+      "url": "https://openreview.net/pdf/754fbaadb1d1f4a16389feb5555619f9dfa8c878.pdf",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Speculative Decoding: Performance or Illusion?",
+      "url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/554e056fe2b6d9fd27ffcd3367ae1267-Abstract-Conference.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "P-PAS: Prefill-Pressure Adaptive Scheduling for Long-Context LLM Serving",
+      "url": "https://arxiv.org/abs/2608.15171",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Deadline-Aware Adaptive Prefill Chunking for Efficient Large Language Model Serving",
+      "url": "https://arxiv.org/abs/2609.07883",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
+      "url": "https://arxiv.org/abs/2602.16603",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "LAPS: A Length-Aware-Prefill LLM Serving System",
+      "url": "https://arxiv.org/abs/2601.11589",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - deepseek-ai/DeepSpec: DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms · GitHub",
+      "url": "https://github.com/deepseek-ai/DeepSpec",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - Tencent/hpc-ops: High Performance LLM Inference Operator Library · GitHub",
+      "url": "https://github.com/Tencent/hpc-ops",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate",
+      "url": "https://arxiv.org/abs/2504.19874",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Published as a conference paper at ICLR 2026",
+      "url": "https://openreview.net/pdf?id=tO3ASKZlok",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "SPIN: Shadow Predictive Indexer for Sparse Attention",
+      "url": "https://arxiv.org/abs/2610.09025",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - PaddlePaddle/FlashMask: Efficient Mask-Aware Distributed Attention for Long-Context Training · GitHub",
+      "url": "https://github.com/PaddlePaddle/FlashMask",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - OnlyTerp/turboquant: First open-source implementation of Google TurboQuant (ICLR 2026) -- near-optimal KV cache compression for LLM inference. 5x compression with near-zero quality loss. · GitHub",
+      "url": "https://github.com/OnlyTerp/turboquant",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Paper-Notes-en/docs/ICLR2026/model_compression/turboquant_online_vector_quantization_with_near-optimal_distortion_rate.md at main · zhaoyang97/Paper-Notes-en · GitHub",
+      "url": "https://github.com/zhaoyang97/Paper-Notes-en/blob/main/docs/ICLR2026/model_compression/turboquant_online_vector_quantization_with_near-optimal_distortion_rate.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - Firmamento-Technologies/TurboQuant: Near-optimal vector quantization from Google's ICLR 2026 paper — 95% recall, 5x compression, zero preprocessing, pure Python FAISS replacement · GitHub",
+      "url": "https://github.com/Firmamento-Technologies/TurboQuant",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - dengls24/TurboQuant-Reproduction: Reproduction of TurboQuant (ICLR 2026, arXiv:2504.19874): Online Vector Quantization with Near-optimal Distortion Rate · GitHub",
+      "url": "https://github.com/dengls24/TurboQuant-Reproduction",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Under review as a conference paper at ICLR 2026",
+      "url": "https://openreview.net/pdf?id=frMCrXOioZ",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "LightMoE: Task-Aware Expert Availability Management for",
+      "url": "https://aclanthology.org/2026.findings-acl.1062.pdf",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2608.07009] HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management",
+      "url": "https://arxiv.org/abs/2608.07009",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management",
+      "url": "https://arxiv.org/html/2608.07009v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention",
+      "url": "https://arxiv.org/html/2603.28458v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "PIVOT: Efficient Query-Group Indexing for Token-Level Sparse Attention",
+      "url": "https://arxiv.org/html/2607.24593v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "MISA: Mixture of Indexer Sparse Attention for Long-Context LLM Inference",
+      "url": "https://arxiv.org/html/2605.07363v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse",
+      "url": "https://arxiv.org/html/2603.12201v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2610.22985] Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference",
+      "url": "https://arxiv.org/abs/2610.22985",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2610.17901] FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+      "url": "https://arxiv.org/abs/2610.17901",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[RFC]: Adapt to vLLM HiSparse · Issue #19293 · vllm-project/vllm-ascend · GitHub",
+      "url": "https://github.com/vllm-project/vllm-ascend/issues/19293",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "TransArch/README.md at main · MuLabPKU/TransArch · GitHub",
+      "url": "https://github.com/MuLabPKU/TransArch/blob/main/README.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[Bug] Hisparse double allocate MLATokenToKVPoolHost with speculative decoding · Issue #23153 · sgl-project/sglang · GitHub",
+      "url": "https://github.com/sgl-project/sglang/issues/23153",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - liweim/HiSA · GitHub",
+      "url": "https://github.com/liweim/HiSA",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "sglang/python/sglang/srt/managers/hisparse_coordinator.py at main · sgl-project/sglang · GitHub",
+      "url": "https://github.com/sgl-project/sglang/blob/main/python/sglang/srt/managers/hisparse_coordinator.py",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "v0.1.10 · tile-ai tilelang · Discussion #2258 · GitHub",
+      "url": "https://github.com/tile-ai/tilelang/discussions/2258",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DSA/README.md at main · joowoonk/DSA · GitHub",
+      "url": "https://github.com/joowoonk/DSA/blob/main/README.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "CUDA: B1 indexer misses WMMA and 1M HCA falls off the 7936-row fast path · Issue #762 · antirez/ds4 · GitHub",
+      "url": "https://github.com/antirez/ds4/issues/762",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "ATOM/recipes/atom_vllm/GLM-5.md at main · ROCm/ATOM · GitHub",
+      "url": "https://github.com/ROCm/ATOM/blob/main/recipes/atom_vllm/GLM-5.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "feat(models): port DeepSeek-V4 (MLA + group-limited MoE backbone) · Issue #523 · lablup/mlxcel · GitHub",
+      "url": "https://github.com/lablup/mlxcel/issues/523",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[RFC] ParisKV2 sparse attention integration for SGLang · Issue #27652 · sgl-project/sglang · GitHub",
+      "url": "https://github.com/sgl-project/sglang/issues/27652",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[Feature]: IndexCache support for DSA models · vllm-project/vllm@41df56c · GitHub",
+      "url": "https://github.com/vllm-project/vllm/actions/runs/24451735186",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "sglang/python/sglang/srt/mem_cache at main · sgl-project/sglang · GitHub",
+      "url": "https://github.com/sgl-project/sglang/tree/main/python/sglang/srt/mem_cache",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Issues · THUDM/IndexCache · GitHub",
+      "url": "https://github.com/THUDM/IndexCache/issues",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification - ACL Anthology",
+      "url": "https://aclanthology.org/2026.acl-long.83/",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "FAFO: Lossy KV Cache Compression for Lossless Inference Acceleration via Draftless Fumble Decoding",
+      "url": "https://proceedings.mlr.press/v306/le26g.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "omlx/omlx/admin/templates/dashboard/_modal_model_settings.html at main · jundot/omlx · GitHub",
+      "url": "https://github.com/jundot/omlx/blob/main/omlx/admin/templates/dashboard/_modal_model_settings.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - sail-sg/LongSpec: [ACL 2026 (Main)] LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification · GitHub",
+      "url": "https://github.com/sail-sg/LongSpec",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Under review as a conference paper at ICLR 2026",
+      "url": "https://openreview.net/pdf?id=oSk9tP5Mgs",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Responsible NLP Checklist",
+      "url": "https://aclanthology.org/attachments/2026.acl-long.83.checklist.pdf",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Release Notes — vllm-ascend",
+      "url": "https://docs.vllm.ai/projects/ascend/en/v0.18.0/user_guide/release_notes.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Release Notes — vllm-ascend",
+      "url": "https://docs.vllm.ai/projects/ascend/en/v0.23.0rc1/user_guide/release_notes.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Under review as a conference paper at ICLR 2026",
+      "url": "https://openreview.net/pdf/491f077ab86c5e61bbd4e473081e2322aaeae17e.pdf",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Under review as a conference paper at ICLR 2026",
+      "url": "https://openreview.net/pdf/74ba4fafc2c1852bdb849bdf7c32a2a148ee7650.pdf",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - deepseek-ai/DeepSelect: DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers · GitHub",
+      "url": "https://github.com/deepseek-ai/DeepSelect",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - deepseek-ai/FlashMLA: FlashMLA: Efficient Multi-head Latent Attention Kernels · GitHub",
+      "url": "https://github.com/deepseek-ai/FlashMLA",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - MuLabPKU/TransArch: Design hardware-friendly model architectures and migrate existing LLMs with minimal performance loss · GitHub",
+      "url": "https://github.com/MuLabPKU/TransArch",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2609.04244] MonoMoE: An Efficient Fused Mega-kernel for Quantized MoE Decoding",
+      "url": "https://arxiv.org/abs/2609.04244",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2607.19358",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Can Language Models Solve Olympiad Progra",
+      "url": "https://arxiv.org/pdf/2404.10952",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "COMPUTE TRENDS ACROSS",
+      "url": "https://arxiv.org/pdf/2202.05924",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "{\"status\":\"fulfilled\",\"value\":\"Weave: Fine-Grained Dynamic SM Scheduling in an MoE Megakernel for Compute-Communication Overlap",
+      "url": "https://arxiv.org/abs/2609.21483",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference",
+      "url": "https://arxiv.org/html/2602.21548v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - THUDM/IndexCache: IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse · GitHub",
+      "url": "https://github.com/THUDM/IndexCache",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2607.05147] DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
+      "url": "https://arxiv.org/abs/2607.05147",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2602.06036] DFlash: Block Diffusion for Flash Speculative Decoding",
+      "url": "https://arxiv.org/abs/2602.06036",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Adaptive Context Parallelism for Production LLM Serving",
+      "url": "https://arxiv.org/html/2609.04774v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "A First Comprehensive Study of TurboQuant: Accuracy and Performance | vLLM Blog",
+      "url": "https://vllm-project.github.io/2026/05/11/turboquant.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "SplitZip: Ultra Fast Lossless KV Compression for Disaggregated LLM Serving",
+      "url": "https://arxiv.org/abs/2605.01708",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2606.20474] UltraQuant: 4-bit KV Caching for Context-Heavy Agents",
+      "url": "https://arxiv.org/abs/2606.20474",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "VeriCache: Turning Lossy KV Cache into Lossless LLM Inference",
+      "url": "https://arxiv.org/abs/2605.17613",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap",
+      "url": "https://arxiv.org/abs/2609.07536",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2608.26523] VPP: Virtual Pipeline Parallelism for Efficient Chunked Prefill in Long-Context LLM Inference",
+      "url": "https://arxiv.org/abs/2608.26523",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2602.22593] FLYING SERVING: On-the-Fly Parallelism Switching for Large Language Model Serving",
+      "url": "https://arxiv.org/abs/2602.22593",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "You Only Cache Once: Decoder-Decoder Architectures for Language Models",
+      "url": "https://arxiv.org/abs/2405.05254",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - kvcache-ai/Mooncake: Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. · GitHub",
+      "url": "https://github.com/kvcache-ai/Mooncake?from=main",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - kvcache-ai/Mooncake: Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. · GitHub",
+      "url": "https://github.com/kvcache-ai/Mooncake?from=welcome_file",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference",
+      "url": "https://hanlab.mit.edu/projects/quest",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Mooncake Architecture — Mooncake",
+      "url": "https://kvcache-ai.github.io/Mooncake/design/architecture.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention",
+      "url": "https://arxiv.org/abs/2502.11089",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving",
+      "url": "https://arxiv.org/abs/2407.00079",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference",
+      "url": "https://arxiv.org/abs/2406.10774",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "You Only Cache Once:",
+      "url": "https://openreview.net/pdf?id=25Ioxw576r",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Welcome to Mooncake — Mooncake",
+      "url": "https://kvcache-ai.github.io/Mooncake/index.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - gaspardbd/NativeSparseAttention · GitHub",
+      "url": "https://github.com/gaspardbd/NativeSparseAttention",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - AndrewBoessen/cuda-native-sparse-attention: Efficient CUDA implementation of \"Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention\" · GitHub",
+      "url": "https://github.com/AndrewBoessen/cuda-native-sparse-attention",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Quick Start — Mooncake",
+      "url": "https://kvcache-ai.github.io/Mooncake/getting_started/quick-start.html",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "QUEST: Query-Aware Sparsity for Efficient Long-Context LLM Inference",
+      "url": "https://openreview.net/pdf?id=KzACYw0MTV",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - SuperGoodGame/Mooncake · GitHub",
+      "url": "https://github.com/SuperGoodGame/Mooncake",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "SplitZip: Ultra Fast Lossless KV Compression for Disaggregated LLM Serving",
+      "url": "https://arxiv.org/html/2605.01708v3",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
+      "url": "https://arxiv.org/html/2607.05147v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "1Introduction",
+      "url": "https://arxiv.org/html/2608.26523v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Adaptive Context Parallelism for Production LLM Serving",
+      "url": "https://arxiv.org/abs/2609.04774",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices",
+      "url": "https://arxiv.org/abs/2609.14643",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Regulating Branch Parallelism in LLM Serving | Stanford MAST Lab",
+      "url": "https://mast.stanford.edu/pubs/taper/",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Scaling LLM Inference via Parallelism: Throughput-Latency Trade-off",
+      "url": "https://arxiv-org.sbet-launcher.com/html/2610.19405v1",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "FIRM-MoE:Fine-GrainedExpert Decomposition for Resource-Adaptive MoE Inference",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39106/43068",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "{\"status\":\"fulfilled\",\"value\":\"KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference | Proceedings of the AAAI Conference on Artificial Intelligence",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40611",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "A JoLT for the KV Cache: Near-Lossless KV Cache Compression via Joint Tucker and JL-Residual Allocation for LLMs",
+      "url": "https://arxiv.org/abs/2607.12550",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "KV Cache Compression Through the Lens of Transform Coding",
+      "url": "https://arxiv.org/abs/2608.14191",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[RFC][MP] Lossless KV Compression with GPU Decompression · Issue #4498 · LMCache/LMCache · GitHub",
+      "url": "https://github.com/LMCache/LMCache/issues/4498",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "kvtc/README.md at master · OnlyTerp/kvtc · GitHub",
+      "url": "https://github.com/OnlyTerp/kvtc/blob/master/README.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - MiniMax-AI/MSA · GitHub",
+      "url": "https://github.com/MiniMax-AI/MSA",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - Dao-AILab/flash-attention: Fast and memory-efficient exact attention · GitHub",
+      "url": "https://github.com/Dao-AILab/flash-attention",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - TimoSaemann/ppas-vllm: Prefill-pressure adaptive scheduling for efficient long-context LLM serving in vLLM. · GitHub",
+      "url": "https://github.com/TimoSaemann/ppas-vllm",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2605.08524] Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP",
+      "url": "https://arxiv.org/abs/2605.08524",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[2609.11582] OmniKVQuant: KV Cache Quantization for Omni-LLMs",
+      "url": "https://arxiv.org/abs/2609.11582",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "SparDA: Sparse Decoupled Attention for Efficient Long-Context LLM Inference",
+      "url": "https://arxiv.org/abs/2606.04511",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DeepSeek-V4 · Hugging Face",
+      "url": "https://huggingface.co/docs/transformers/model_doc/deepseek_v4",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "FlashMemory-Deepseek-V4/TECHNICAL_REPORT_en.md at main · libertywing/FlashMemory-Deepseek-V4 · GitHub",
+      "url": "https://github.com/libertywing/FlashMemory-Deepseek-V4/blob/main/TECHNICAL_REPORT_en.md",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "DeepSeek-V4 · Hugging Face",
+      "url": "https://huggingface.co/docs/transformers/model_doc/deepseek_v4?trk=article-ssr-frontend-pulse_little-text-block",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Paper page - SparDA: Sparse Decoupled Attention for Efficient Long-Context LLM Inference",
+      "url": "https://huggingface.co/papers/2606.04511",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "[RFC]: Support SparDA-style decoupled Forecast projection for lookahead KV prefetch in sparse attention · Issue #48445 · vllm-project/vllm · GitHub",
+      "url": "https://github.com/vllm-project/vllm/issues/48445",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+      "url": "https://arxiv.org/abs/2606.09079",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "Self-Indexing Attention for Compression-Compatible Sparse Long-Context LLM Inference",
+      "url": "https://arxiv.org/abs/2609.13205",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - RookieCoder-Camera/vllm-ascend at vpp-dev · GitHub",
+      "url": "https://github.com/RookieCoder-Camera/vllm-ascend/tree/vpp-dev",
+      "read_at": "2026-10-24"
+    },
+    {
+      "title": "GitHub - NVlabs/SparDA: Sparse Decoupled Attention for Efficient Long-Context LLM Inference · GitHub",
+      "url": "https://github.com/NVlabs/SparDA",
+      "read_at": "2026-10-24"
+    }
+  ],
+  "full_model_executed": false,
+  "npu_executed": false,
+  "failed_reads": [
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/resolve/main/DeepSeek_V41_Tech_Report.pdf",
+      "reason": "Web signed-CDN redirect inaccessible; shell download timed out. No claims based on unread PDF."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSpec/main/DSpark_paper.pdf",
+      "reason": "404. Recovered current paper through official DeepSpec README to arxiv:2607.05147; read HTML instead."
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/config.json",
+      "reason": "Shell timed out; web read succeeded for all 170 lines."
+    }
+  ],
+  "included_papers": [
+    {
+      "id": "P01",
+      "date_label": "2026-03",
+      "title": "IndexCache",
+      "url": "https://arxiv.org/html/2603.12201v1",
+      "reading_depth": "正文；作者 GitHub",
+      "local_decision": "当前已有 8 源/40 层共享。原文 30B DSA 上去掉 75% 索引的收益不重复计入；继续共享为 A。"
+    },
+    {
+      "id": "P02",
+      "date_label": "2026-03",
+      "title": "HISA",
+      "url": "https://arxiv.org/html/2603.28458v1",
+      "reading_depth": "正文；TransArch/TileLang",
+      "local_decision": "原实验 block=128、64 候选块、Top-K=2048，与本地 8/2048/512 不同。借组织方式实现 R01；新粗筛为 A。"
+    },
+    {
+      "id": "P03",
+      "date_label": "2026-05",
+      "title": "MISA",
+      "url": "https://arxiv.org/html/2605.07363v1",
+      "reading_depth": "正文",
+      "local_decision": "选择部分索引头再 rerank；原 DeepSeek-V3.2/GLM-5 的头数不同，本地仅 32 头。不能照搬“8× 更少头”；A。"
+    },
+    {
+      "id": "P04",
+      "date_label": "2026-07",
+      "title": "PIVOT",
+      "url": "https://arxiv.org/html/2607.24593v1",
+      "reading_depth": "正文",
+      "local_decision": "query 分组代理扫描/候选内重排可减少剩余 source 工作；不能跨 request、C2 边界或未来 query 泄漏；A。"
+    },
+    {
+      "id": "P05",
+      "date_label": "2026-08",
+      "title": "LongCat Sparse Attention",
+      "url": "https://arxiv.org/html/2608.01662v2",
+      "reading_depth": "正文",
+      "local_decision": "streaming/shared/hierarchical 三项共同训练设计；复用布局思想，不改本地 128 SWA、512 sparse 或已训练共享拓扑；完整替换需训练。"
+    },
+    {
+      "id": "P06",
+      "date_label": "2026-06",
+      "title": "You Only Index Once / CLSA",
+      "url": "https://arxiv.org/abs/2606.06467",
+      "reading_depth": "摘要筛选",
+      "local_decision": "原生 KV/routing 共享架构，128K 的总体倍率相对其基线。本地已共享，不能解释为可直接再提速。"
+    },
+    {
+      "id": "P07",
+      "date_label": "2026-10",
+      "title": "LatentIndex",
+      "url": "https://arxiv.org/abs/2610.04635",
+      "reading_depth": "摘要筛选",
+      "local_decision": "改共享 latent 与层特定选择，需要校准/训练；本地 index K 已从共享 compressed KV 产生；非直接无损替换。"
+    },
+    {
+      "id": "P08",
+      "date_label": "2026-10",
+      "title": "SPIN",
+      "url": "https://arxiv.org/abs/2610.09025v2",
+      "reading_depth": "摘要筛选",
+      "local_decision": "历史预测跳过块，作者 vLLM 最高输出吞吐 +14.9%；目标模式与本地不同，加入 A 类 decode 实验，不作为保证。"
+    },
+    {
+      "id": "P09",
+      "date_label": "2026-10",
+      "title": "Prism Attention",
+      "url": "https://arxiv.org/abs/2610.22985",
+      "reading_depth": "摘要筛选",
+      "local_decision": "跨层 proposal/refinement；3.4× 对比 FlashAttention，不是对本地 sparse MLA；A。"
+    },
+    {
+      "id": "P10",
+      "date_label": "2026-09",
+      "title": "Sample-Guided Exact Top-K",
+      "url": "https://arxiv.org/html/2609.08450v1",
+      "reading_depth": "正文+源码",
+      "local_decision": "唯一直接围绕精确选择认证的重点项；HPC-Ops 容许任意边界同分索引，本项目须收紧契约；R02。"
+    },
+    {
+      "id": "P11",
+      "date_label": "2026-03",
+      "title": "FlashAttention-4",
+      "url": "https://arxiv.org/abs/2603.05451",
+      "reading_depth": "摘要+作者实现范围",
+      "local_decision": "B200/CuTeDSL 异步流水；移植思想需要 Ascend 重写，不能安装 CUDA wheel 获得收益；E1。"
+    },
+    {
+      "id": "P12",
+      "date_label": "2026-10",
+      "title": "FlashMask-3",
+      "url": "https://arxiv.org/abs/2610.17901",
+      "reading_depth": "摘要+作者 GitHub",
+      "local_decision": "主要为长上下文训练/结构 mask 的 CP；借 mask 本地化和负载均衡，不能认为 ragged 512-token 稀疏索引可直接套其区间表示。"
+    },
+    {
+      "id": "P13",
+      "date_label": "2026-06",
+      "title": "MiniMax Sparse Attention",
+      "url": "https://arxiv.org/abs/2606.13392",
+      "reading_depth": "摘要+作者 GitHub",
+      "local_decision": "GQA group-specific block 选择，非共享 MLA 的 drop-in；原模型训练及 H800 内核倍率不迁移。"
+    },
+    {
+      "id": "P14",
+      "date_label": "2026-01",
+      "title": "S³-Attention",
+      "url": "https://arxiv.org/abs/2601.17702",
+      "reading_depth": "摘要筛选",
+      "local_decision": "SAE/倒排检索并丢完整 KV，改变模型输入与检索；作者说明原型 wall-clock 更慢；不进入本地吞吐路线。"
+    },
+    {
+      "id": "P15",
+      "date_label": "2026-07",
+      "title": "DSpark",
+      "url": "https://arxiv.org/abs/2607.05147",
+      "reading_depth": "正文+DeepInfer/DeepSpec 源码",
+      "local_decision": "当前已有专用 proposer；新增工作为成本驱动预算、同步移除、验证因果性，优先 R03。"
+    },
+    {
+      "id": "P16",
+      "date_label": "2026-02，ICML 2026",
+      "title": "DFlash",
+      "url": "https://proceedings.mlr.press/v306/chen26bv.html",
+      "reading_depth": "官方论文摘要+作者 GitHub",
+      "local_decision": "本地已有 proposer；新 DSV4.1 草稿还需对应训练，不将 Qwen 结果当成可用 checkpoint；DSpark 优先。"
+    },
+    {
+      "id": "P17",
+      "date_label": "2025 首发，ACL 2026",
+      "title": "LongSpec",
+      "url": "https://aclanthology.org/2026.acl-long.83/",
+      "reading_depth": "官方论文摘要+作者 GitHub",
+      "local_decision": "有价值的是长上下文草稿常数 KV 与位置泛化；现成权重不对应 V41，树验证不是免费替换。"
+    },
+    {
+      "id": "P18",
+      "date_label": "MLSys 2026",
+      "title": "Speculative Decoding: Performance or Illusion?",
+      "url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/554e056fe2b6d9fd27ffcd3367ae1267-Abstract-Conference.html",
+      "reading_depth": "官方摘要",
+      "local_decision": "实际 vLLM、多模型/批量研究；支持必须评估 target verification 和接受长度分布，不能只报 batch=1。"
+    },
+    {
+      "id": "P19",
+      "date_label": "2026-05",
+      "title": "VeriCache",
+      "url": "https://arxiv.org/abs/2605.17613",
+      "reading_depth": "摘要筛选",
+      "local_decision": "压缩缓存草稿+完整缓存验证，E2 方向；额外 host swap 对共享 KV+DSpark 的净收益未建立，P2。"
+    },
+    {
+      "id": "P20",
+      "date_label": "ICML 2026",
+      "title": "FAFO",
+      "url": "https://proceedings.mlr.press/v306/le26g.html",
+      "reading_depth": "官方摘要/方法附件",
+      "local_decision": "单模型同次 forward 混合近似草稿与精确验证；本地 sparse/SWA mask 需新适配，不能与 DSpark 直接叠乘，P2。"
+    },
+    {
+      "id": "P21",
+      "date_label": "2026-08",
+      "title": "HiSparse",
+      "url": "https://arxiv.org/html/2608.07009v1",
+      "reading_depth": "正文+SGLang 源码/RFC",
+      "local_decision": "E0 放置优化；保留 index K、按共享 KV 的跨索引并集预取；R04，先解决 pool。"
+    },
+    {
+      "id": "P22",
+      "date_label": "2026-02",
+      "title": "DualPath",
+      "url": "https://arxiv.org/html/2602.21548v1",
+      "reading_depth": "正文",
+      "local_decision": "多轮远端缓存恢复的双路 IO；与 cold prefill 计算优化是不同场景；R07。"
+    },
+    {
+      "id": "P23",
+      "date_label": "2026-05/06",
+      "title": "SplitZip",
+      "url": "https://arxiv.org/html/2605.01708v3",
+      "reading_depth": "正文",
+      "local_decision": "位级无损传输编码；BF16 主 KV 可测，INT8/FP4 不能套同压缩率；R07。"
+    },
+    {
+      "id": "P24",
+      "date_label": "2025 首发，ICLR 2026",
+      "title": "TurboQuant",
+      "url": "https://arxiv.org/abs/2504.19874",
+      "reading_depth": "论文/作者说明及 vLLM 实现评估",
+      "local_decision": "有损低位量化，有失真界不等于逐输出不变；本地 cache ABI/latent 需重写，A。"
+    },
+    {
+      "id": "P25",
+      "date_label": "2026-06/09",
+      "title": "UltraQuant",
+      "url": "https://arxiv.org/abs/2606.20474v3",
+      "reading_depth": "摘要筛选",
+      "local_decision": "AMD 原生 FP4 与多轮质量/吞吐联合评估很有参考价值；硬件 MFMA 路径和目标模型不同，A。"
+    },
+    {
+      "id": "P26",
+      "date_label": "2026-08",
+      "title": "Attention-Aware Transform Coding",
+      "url": "https://arxiv.org/abs/2608.14191",
+      "reading_depth": "摘要筛选",
+      "local_decision": "根据 attention 失真分配位数；Llama/Qwen 的近无损结果不能证明共享 latent 无损，A。"
+    },
+    {
+      "id": "P27",
+      "date_label": "2026-07",
+      "title": "JoLT",
+      "url": "https://arxiv.org/abs/2607.12550",
+      "reading_depth": "摘要筛选",
+      "local_decision": "token/feature Tucker 分解+残差，重构非零误差且有在线成本；低于 pool/选择器优先级，A。"
+    },
+    {
+      "id": "P28",
+      "date_label": "AAAI 2026",
+      "title": "KeepKV",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40611",
+      "reading_depth": "官方摘要",
+      "local_decision": "“单步 lossless / 多步 error bound”不是完整生成逐步等价；需改注意力补偿与缓存，A。"
+    },
+    {
+      "id": "P29",
+      "date_label": "2026-01",
+      "title": "LAPS",
+      "url": "https://arxiv.org/abs/2601.11589",
+      "reading_depth": "摘要筛选",
+      "local_decision": "长短 prefill 分队列，适用混合负载；单个冷 128K 无直接算法减算，R05。"
+    },
+    {
+      "id": "P30",
+      "date_label": "2026-02",
+      "title": "FlowPrefill",
+      "url": "https://arxiv.org/abs/2602.16603",
+      "reading_depth": "摘要筛选",
+      "local_decision": "算子边界抢占；V41 状态 scatter、ring 更新和 replay 有依赖，不能任意中断恢复；P2。"
+    },
+    {
+      "id": "P31",
+      "date_label": "2026-08",
+      "title": "P-PAS",
+      "url": "https://arxiv.org/abs/2608.15171",
+      "reading_depth": "摘要+作者 GitHub",
+      "local_decision": "vLLM 动态 MBT 控制思路可接，需增加 context/replay/EP 成本特征；R05。"
+    },
+    {
+      "id": "P32",
+      "date_label": "2026-09",
+      "title": "SLOWeave",
+      "url": "https://arxiv.org/abs/2609.07883",
+      "reading_depth": "摘要筛选",
+      "local_decision": "选择满足 decode deadline 的最大 chunk；作者证据含事件仿真与迭代 GPU runtime，不等于完整 V41 serving；R05。"
+    },
+    {
+      "id": "P33",
+      "date_label": "2026-09",
+      "title": "Vertumnus",
+      "url": "https://arxiv.org/html/2609.04774v1",
+      "reading_depth": "正文",
+      "local_decision": "CP 度路由、实例重组和缓存管理；先做静态多池路由，动态重组需处理 replicated cache/HCCL/graph；R05。"
+    },
+    {
+      "id": "P34",
+      "date_label": "2026-08",
+      "title": "VPP",
+      "url": "https://arxiv.org/html/2608.26523v1",
+      "reading_depth": "正文",
+      "local_decision": "16×910C 的 Ascend 实证；本地 V41 PP/Engram/replay 约束未解除，不作为立即启用项。"
+    },
+    {
+      "id": "P35",
+      "date_label": "2026-09",
+      "title": "Weave",
+      "url": "https://arxiv.org/abs/2609.21483v3",
+      "reading_depth": "摘要筛选",
+      "local_decision": "H100 持久 megakernel 的动态资源划分；移植负载模型，比较已有 CANN MegaMoE，R06。"
+    },
+    {
+      "id": "P36",
+      "date_label": "2026-09",
+      "title": "Analytical Resource Management",
+      "url": "https://arxiv.org/abs/2609.07536",
+      "reading_depth": "摘要筛选",
+      "local_decision": "COMET/A100 的 wave/CTA 模型；重建 Ascend 资源约束后评估，R06。"
+    },
+    {
+      "id": "P37",
+      "date_label": "2026-08 首发",
+      "title": "MonoMoE",
+      "url": "https://arxiv.org/abs/2609.04244",
+      "reading_depth": "摘要+作者代码位置",
+      "local_decision": "H200 小批量 weight-major 融合，适合借鉴布局；本地 W8A8/MegaMoE 不同，不能引用原端到端 18.7% 为收益。"
+    },
+    {
+      "id": "P38",
+      "date_label": "2024",
+      "title": "YOCO",
+      "url": "https://arxiv.org/abs/2405.05254",
+      "reading_depth": "",
+      "local_decision": "理解共享 KV 与 prefill 退出的结构前提；DSV4.1 每层 SWA 不满足原版直接退出证明。"
+    },
+    {
+      "id": "P39",
+      "date_label": "2025",
+      "title": "Native Sparse Attention",
+      "url": "https://arxiv.org/abs/2502.11089",
+      "reading_depth": "",
+      "local_decision": "理解压缩/选择/局部注意力和硬件协同；重训架构，不直接换当前模型。"
+    },
+    {
+      "id": "P40",
+      "date_label": "2024",
+      "title": "Quest",
+      "url": "https://arxiv.org/abs/2406.10774",
+      "reading_depth": "",
+      "local_decision": "借块统计做筛选；要无损需为当前分数链证明上界，固定预算启发式仍为近似。"
+    },
+    {
+      "id": "P41",
+      "date_label": "2024，FAST 2025",
+      "title": "Mooncake",
+      "url": "https://arxiv.org/abs/2407.00079",
+      "reading_depth": "",
+      "local_decision": "PD 与分层缓存基础；已有 Transfer Engine 不等于已有 DualPath 全局调度。"
+    },
+    {
+      "id": "P42",
+      "date_label": "2026-06",
+      "title": "SparDA",
+      "url": "https://arxiv.org/abs/2606.04511",
+      "reading_depth": "摘要+作者 NVlabs 仓库",
+      "local_decision": "训练 Forecast 投影预测下一层选择，两个 8B 模型的结果不是 V41 证据；改变选择为 A。若仅提前搬运预测页，仍等待原索引并补齐 miss，则可保持 E0，但不省原 QK，需测预取浪费。"
+    },
+    {
+      "id": "P43",
+      "date_label": "2026-06，07 修订",
+      "title": "FlashMemory-DeepSeek-V4",
+      "url": "https://arxiv.org/abs/2606.09079",
+      "reading_depth": "摘要+作者技术报告算法段",
+      "local_decision": "作者实现每 64 decode 步用训练的检索器固定 resident set，后续 native Top-K 只能从该集合选；这是 A，与 HiSparse 按真实选择精确拉取不同。原 V4 为 43 层/21 个 C4 来源，不能直接迁入 V41 的 40 层/4 KV 源。"
+    },
+    {
+      "id": "P44",
+      "date_label": "2026-08 首发，10 修订",
+      "title": "Self-Indexing Attention",
+      "url": "https://arxiv.org/abs/2609.13205v2",
+      "reading_depth": "摘要筛选",
+      "local_decision": "变换域 1-bit 符号索引和分组检索改变选取依据；作者报告 V4-Flash 兼容性，不等于 V4.1 数值等价。作为 A 类与量化联合评估，算子倍率不等于端到端吞吐。"
+    }
+  ],
+  "download_manifests": [
+    {
+      "file": "deepinfer_qa.md",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/inference_deployment_qa.md",
+      "sha256": "55d428d9958aa35ac863d7f5a2eb21528e683226784b1ac334e8068e21f2326f",
+      "bytes": 28865
+    },
+    {
+      "file": "deepinfer_tree.json",
+      "url": "https://api.github.com/repos/deepseek-ai/DeepInfer/git/trees/main?recursive=1",
+      "sha256": "9536458b1d15d64083bfe67a8552efc20ea336f721eea2279a2e4f3120006af1",
+      "bytes": 121524
+    },
+    {
+      "file": "hpc_tree.json",
+      "url": "https://api.github.com/repos/Tencent/hpc-ops/git/trees/main?recursive=1",
+      "sha256": "b05d5f3351c9f28973d306ef493e0d1fa2254a0bfc8c509260507e4cc8bc1f06",
+      "bytes": 361508
+    },
+    {
+      "file": "deepspec_readme.md",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSpec/main/README.md",
+      "sha256": "c9fd7eb6b162afaeb080c7f546260d23932295310aa1a0c1b0431d544cf0ba3b",
+      "bytes": 6524
+    },
+    {
+      "file": "deepselect_readme.md",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSelect/main/README.md",
+      "sha256": "70489aa4ce1e63709c1fcd9a101c0dc2f5063a4d4a75b5d4f9388928f9d42cf9",
+      "bytes": 5577
+    },
+    {
+      "file": "deepgemm_readme.md",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepGEMM/main/README.md",
+      "sha256": "1112521165450d617bf0ff0cc06d8944f7b4548ecf4727e1d16143671014a4d2",
+      "bytes": 13257
+    },
+    {
+      "file": "model_config.json",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/config.json",
+      "error": "curl: (28) Connection timed out after 40006 milliseconds\n"
+    },
+    {
+      "file": "dsv41.pdf",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/resolve/main/DeepSeek_V41_Tech_Report.pdf",
+      "error": "curl: (28) Connection timed out after 40004 milliseconds\n"
+    },
+    {
+      "file": "dspark.pdf",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSpec/main/DSpark_paper.pdf",
+      "error": "curl: (56) The requested URL returned error: 404\n"
+    },
+    {
+      "file": "deepinfer_index_attn.py",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/9bd9cf243fc53ef9afbf8f04d391d989117d6ab9/deepinfer/model_executor/models/v4_modules/index_attn.py",
+      "bytes": 26204,
+      "sha256": "e269196c3c8d2db7041f7f1073597b8023dc4ecd58b40303ebf392171c02d462"
+    },
+    {
+      "file": "deepinfer_mtp_varlen.hpp",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/9bd9cf243fc53ef9afbf8f04d391d989117d6ab9/csrc/engine/mtp_varlen.hpp",
+      "bytes": 12151,
+      "sha256": "164f45db4cccd6d6909dd2846e7dfffb57754b108af679443bf4bd71ec33785a"
+    },
+    {
+      "file": "hpc_topk.py",
+      "url": "https://raw.githubusercontent.com/Tencent/hpc-ops/2a2e26562433a8ba4b504858f1c938eb7612c901/hpc/topk.py",
+      "bytes": 2601,
+      "sha256": "ce1d91e39cdf2a83fe0d15295a4e81c639a17ab3759361736be850c9269838b7"
+    },
+    {
+      "file": "hpc_topk_boundary.cuh",
+      "url": "https://raw.githubusercontent.com/Tencent/hpc-ops/2a2e26562433a8ba4b504858f1c938eb7612c901/src/topk/topk_filtered_boundary.cuh",
+      "bytes": 4584,
+      "sha256": "056fa5e3dfc320c59426b7ce56405daa09f53ad18a093c5fd8a013dbee9d235d"
+    },
+    {
+      "file": "deepselect_interface.py",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSelect/main/deep_select/interface.py",
+      "bytes": 5362,
+      "sha256": "b59c565167ea7898298bebdc7991505e1c6b6b538e5302d478eb3a8008bbfa6e"
+    },
+    {
+      "file": "deepselect_algorithm.md",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSelect/main/docs/DeepSelect-deep-dive.md",
+      "bytes": 9699,
+      "sha256": "ee93e99ff537e83150ae448f43794df5ac63888f9e87017b89fee0e2c4a30e1f"
+    },
+    {
+      "file": "dspark_paper.html",
+      "url": "https://arxiv.org/html/2607.05147v1",
+      "bytes": 362897,
+      "sha256": "d26ba29059c512f60eb02bed40f28a1214747c714cb82f996f0dc0eca591caea"
+    }
+  ],
+  "local_source_sha256": {
+    "vllm_ascend/spec_decode/utils.py": "94a569fa2b54fcd206d6992c29e13a852ee5f6596d6d483fd4a33ca182c3f1f7",
+    "vllm_ascend/spec_decode/dspark_proposer.py": "fce3dde22069d13c3da46ef2f3d599636eed40bdc0ef978acbe38f76e28131f2",
+    "vllm_ascend/ascend_config.py": "ecbac85f46f156ad2ec4e82a570a738f46e81f507dbd7dd6db14f201e2ee4ce8",
+    "vllm_ascend/sample/rejection_sampler.py": "bb1d39de851540c16c2dd2b16df60c60a1fc4957cedb88bdce9417efc0d55eda",
+    "vllm_ascend/models/deepseek_v41/decoder_replay_state.py": "1b307fdcc7ee57404a9059b03108284df0aa91ae82dde8d7ecf9a5fb5e05027a",
+    "vllm_ascend/attention/dsa_v41.py": "118b2e0b68cb704ce97f08f3a773abba2cfdda8394b27b6e6e7ba8d4391f0d83",
+    "vllm_ascend/ops/fused_moe/moe_comm_method.py": "5be213bfe265f8c6240fb111bbb2a0b1edfdf7920e3d5966a159651e13b3b494"
+  },
+  "paper_counts": {
+    "total": 44,
+    "first_published_or_conference_published_2026": 40,
+    "foundations": 4
+  }
+}

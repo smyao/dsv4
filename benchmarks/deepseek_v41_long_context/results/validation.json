@@ -1,0 +1,43 @@
+{
+  "source_commit": "e099a085329b57cb62b8eee4d381c70c3db2566b",
+  "date": "2026-10-24",
+  "simulation": {
+    "status": "passed",
+    "native_schedule_probe_cases": 577,
+    "prefill_cases": 40,
+    "numeric_reference_cases": 5,
+    "compression_coordinate_cases": 72,
+    "replay_gate_cases": 6,
+    "actual_replay_prepare_cases": 3,
+    "actual_dispatch_layer_count": 40,
+    "actual_dispatch_native_stub_count": 8
+  },
+  "existing_repository_tests": {
+    "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer python3 -m unittest discover -s tests/ut/ops -p test_aurora_tiling_keys.py -v",
+    "passed": 8,
+    "failed": 0
+  },
+  "focused_checks": {
+    "ruff_0_14_0_check": "passed",
+    "ruff_0_14_0_format": "passed",
+    "markdownlint_cli_0_45_0_three_markdown_files": "passed",
+    "local_file_links": 35,
+    "verified_source_sha256": 19,
+    "pdb_mode_sequence": [3, 3, 3, 1, 2, 2, 2, 2]
+  },
+  "repository_format_check": {
+    "command": "bash format.sh ci",
+    "exit_code": 1,
+    "status": "not_completed",
+    "reason": "pre-commit is not installed in the local environment"
+  },
+  "not_executed": [
+    "NPU kernels",
+    "full model weights",
+    "HCCL collectives",
+    "full upstream torch/vllm unit-test suite",
+    "end-to-end TTFT, TPOT, throughput and peak device-memory benchmarks",
+    "full-model accuracy datasets"
+  ],
+  "production_code_modified": false
+}

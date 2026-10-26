@@ -1,0 +1,341 @@
+{
+  "base_commit": "e099a085329b57cb62b8eee4d381c70c3db2566b",
+  "base_results_sha256": "d31eab6bd7991a446b250c5459f46c70e069e8ba5e621dca5fff68b292441699",
+  "npu_executed": false,
+  "model_accuracy_measured": false,
+  "budget_source_execution": {
+    "source": "vllm_ascend/spec_decode/utils.py",
+    "sha256": "94a569fa2b54fcd206d6992c29e13a852ee5f6596d6d483fd4a33ca182c3f1f7",
+    "calls": 32,
+    "scalar_reads": 2,
+    "heuristic_budget": 5,
+    "synthetic_cost_choices": [
+      {
+        "draft_len": 0,
+        "relative_cost": 1.0,
+        "expected_output": 1.0,
+        "normalized_throughput": 1.0
+      },
+      {
+        "draft_len": 1,
+        "relative_cost": 1.1,
+        "expected_output": 1.9,
+        "normalized_throughput": 1.727272727272727
+      },
+      {
+        "draft_len": 2,
+        "relative_cost": 1.2,
+        "expected_output": 2.71,
+        "normalized_throughput": 2.2583333333333333
+      },
+      {
+        "draft_len": 3,
+        "relative_cost": 1.3,
+        "expected_output": 3.439,
+        "normalized_throughput": 2.6453846153846152
+      },
+      {
+        "draft_len": 4,
+        "relative_cost": 2.3,
+        "expected_output": 4.0951,
+        "normalized_throughput": 1.7804782608695655
+      },
+      {
+        "draft_len": 5,
+        "relative_cost": 3.3,
+        "expected_output": 4.6855899999999995,
+        "normalized_throughput": 1.4198757575757575
+      }
+    ],
+    "synthetic_optimum": {
+      "draft_len": 3,
+      "relative_cost": 1.3,
+      "expected_output": 3.439,
+      "normalized_throughput": 2.6453846153846152
+    },
+    "note": "Source execution with CPU stubs proves call count, not NPU synchronization duration."
+  },
+  "selection_contracts": {
+    "certification_cases": [
+      {
+        "length": 65536,
+        "kind": "random",
+        "recovery": true,
+        "selected_indices_equal": true,
+        "admitted_count": 65536
+      },
+      {
+        "length": 65536,
+        "kind": "ascending",
+        "recovery": true,
+        "selected_indices_equal": true,
+        "admitted_count": 65536
+      },
+      {
+        "length": 65536,
+        "kind": "ties",
+        "recovery": false,
+        "selected_indices_equal": true,
+        "admitted_count": 65536
+      },
+      {
+        "length": 65536,
+        "kind": "sample_misses_high_tail",
+        "recovery": false,
+        "selected_indices_equal": true,
+        "admitted_count": 65536
+      },
+      {
+        "length": 131072,
+        "kind": "random",
+        "recovery": true,
+        "selected_indices_equal": true,
+        "admitted_count": 131072
+      },
+      {
+        "length": 131072,
+        "kind": "ascending",
+        "recovery": true,
+        "selected_indices_equal": true,
+        "admitted_count": 131072
+      },
+      {
+        "length": 131072,
+        "kind": "ties",
+        "recovery": false,
+        "selected_indices_equal": true,
+        "admitted_count": 131072
+      },
+      {
+        "length": 131072,
+        "kind": "sample_misses_high_tail",
+        "recovery": false,
+        "selected_indices_equal": true,
+        "admitted_count": 131072
+      }
+    ],
+    "tie_counterexample": {
+      "equal_indexer_scores": [
+        1,
+        1
+      ],
+      "selected_k": 1,
+      "downstream_outputs": [
+        0.0,
+        10.0
+      ]
+    },
+    "bf16_counterexample": {
+      "fp32": [
+        1.0010000467300415,
+        1.0019999742507935
+      ],
+      "bf16": [
+        1.0,
+        1.0
+      ],
+      "fp32_argmax": 1,
+      "stable_bf16_argmax": 0
+    },
+    "note": "Independent reference of certify-and-recover principle, not a port of HPC-Ops or DeepSelect."
+  },
+  "replay_counterexample": {
+    "window": 128,
+    "layers": 2,
+    "last_full": 0.00775146484375,
+    "last_replayed": 0.0,
+    "note": "Structural counterexample with uniform SWA, not a DSV4.1 checkpoint accuracy measurement."
+  },
+  "bounds": {
+    "candidate_compaction": [
+      {
+        "tokens": 65536,
+        "replay": false,
+        "pair_fraction_removed": 0.3461568256457327,
+        "idealized_speedup_if_qk_is_all_time": 1.5294187340681435,
+        "scenarios": [
+          {
+            "qk_time_fraction_assumed": 0.25,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.0947377347980756
+          },
+          {
+            "qk_time_fraction_assumed": 0.25,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 1.0828830059086776
+          },
+          {
+            "qk_time_fraction_assumed": 0.5,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.2093045042078356
+          },
+          {
+            "qk_time_fraction_assumed": 0.5,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 1.1948550680511376
+          },
+          {
+            "qk_time_fraction_assumed": 0.75,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.3506534271734074
+          },
+          {
+            "qk_time_fraction_assumed": 0.75,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 1.332653891712631
+          }
+        ]
+      },
+      {
+        "tokens": 65536,
+        "replay": true,
+        "pair_fraction_removed": 0.015922761559402976,
+        "idealized_speedup_if_qk_is_all_time": 1.0161803981815845,
+        "scenarios": [
+          {
+            "qk_time_fraction_assumed": 0.25,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.0039965996155324
+          },
+          {
+            "qk_time_fraction_assumed": 0.25,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 0.9940167056907865
+          },
+          {
+            "qk_time_fraction_assumed": 0.5,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.0080252730341877
+          },
+          {
+            "qk_time_fraction_assumed": 0.5,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 0.9979655282928268
+          },
+          {
+            "qk_time_fraction_assumed": 0.75,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.012086407913034
+          },
+          {
+            "qk_time_fraction_assumed": 0.75,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 1.001945850149027
+          }
+        ]
+      },
+      {
+        "tokens": 131072,
+        "replay": false,
+        "pair_fraction_removed": 0.4711551891902678,
+        "idealized_speedup_if_qk_is_all_time": 1.8909138929979592,
+        "scenarios": [
+          {
+            "qk_time_fraction_assumed": 0.25,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.1335154177783624
+          },
+          {
+            "qk_time_fraction_assumed": 0.25,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 1.1208108539447652
+          },
+          {
+            "qk_time_fraction_assumed": 0.5,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.308177249815648
+          },
+          {
+            "qk_time_fraction_assumed": 0.5,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 1.2912849538194888
+          },
+          {
+            "qk_time_fraction_assumed": 0.75,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.5464708104594294
+          },
+          {
+            "qk_time_fraction_assumed": 0.75,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 1.5229193078959673
+          }
+        ]
+      },
+      {
+        "tokens": 131072,
+        "replay": true,
+        "pair_fraction_removed": 0.019956933560236423,
+        "idealized_speedup_if_qk_is_all_time": 1.0203633230453175,
+        "scenarios": [
+          {
+            "qk_time_fraction_assumed": 0.25,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.0050142506568625
+          },
+          {
+            "qk_time_fraction_assumed": 0.25,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 0.9950142159901003
+          },
+          {
+            "qk_time_fraction_assumed": 0.5,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.0100790401474045
+          },
+          {
+            "qk_time_fraction_assumed": 0.5,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 0.9999784672437877
+          },
+          {
+            "qk_time_fraction_assumed": 0.75,
+            "added_time_fraction_assumed": 0,
+            "speedup": 1.0151951364160985
+          },
+          {
+            "qk_time_fraction_assumed": 0.75,
+            "added_time_fraction_assumed": 0.01,
+            "speedup": 1.0049925014203327
+          }
+        ]
+      }
+    ],
+    "hisparse_payload_only": {
+      "context": 131072,
+      "index_bytes_stay_resident": 42598400,
+      "main_kv_bytes_full": 335544320,
+      "main_kv_bytes_four_512_row_hot_sets": 2097152,
+      "main_kv_union_worst_rows_8_distinct_selections": 4096,
+      "max_single_query_selected_bytes": 4194304,
+      "note": "No SWA, ring, staging, alignment, allocator or multi-token union included."
+    },
+    "materialized_fp32_scores_per_source_chunk": {
+      "chunk": 8192,
+      "context": 131072,
+      "full_c1_bytes": 4294967296,
+      "consumer_16384_bytes": 536870912
+    },
+    "codec_break_even": "encode_time + decode_time < bytes / link_bandwidth * (1 - 1/compression_ratio)",
+    "splitzip_bf16_no_escape_payload_compression_ceiling": 1.3333333333333333
+  },
+  "sampling_causality_counterexample": {
+    "target": {
+      "A": 0.5,
+      "B": 0.5
+    },
+    "draft": {
+      "A": 0.5,
+      "B": 0.5
+    },
+    "always_verify_output": {
+      "A": 0.5,
+      "B": 0.5
+    },
+    "verify_only_if_draft_is_A_otherwise_sample_target": {
+      "A": 0.75,
+      "B": 0.25
+    },
+    "note": "Enumerated toy counterexample; not a finding of bias in the local DSpark path."
+  }
+}
